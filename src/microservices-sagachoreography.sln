@@ -5,7 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6306701E-B900-4355-BF93-BBCB4A8D8D8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChore.Shared", "Shared\SagaChore.Shared\SagaChore.Shared.csproj", "{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaChore.Shared", "Shared\SagaChore.Shared\SagaChore.Shared.csproj", "{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CDE56ED4-1C4E-4A1E-9C26-6E8B016DDFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChore.OrderAPI", "Services\SagaChore.OrderAPI\SagaChore.OrderAPI.csproj", "{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{66E5F83D-AEBD-41EA-B8FC-0D3AA6AEC33C} = {6306701E-B900-4355-BF93-BBCB4A8D8D8E}
+		{C620F76C-72DA-47B6-8EB9-5BDF1BFD630F} = {CDE56ED4-1C4E-4A1E-9C26-6E8B016DDFEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B477BE35-57A6-4C94-B41F-6860E6CCE315}
