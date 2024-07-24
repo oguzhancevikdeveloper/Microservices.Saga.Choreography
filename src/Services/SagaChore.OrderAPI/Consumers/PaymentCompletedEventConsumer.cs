@@ -1,8 +1,8 @@
 ﻿using MassTransit;
-using Microsoft.EntityFrameworkCore;
-using SagaChore.OrderAPI.Models;
 using SagaChore.OrderAPI.Models.Contexts;
+using SagaChore.OrderAPI.Models;
 using SagaChore.Shared.Events;
+using Microsoft.EntityFrameworkCore;
 
 namespace SagaChore.OrderAPI.Consumers;
 

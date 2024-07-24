@@ -12,7 +12,7 @@ using SagaChore.OrderAPI.Models.Contexts;
 namespace SagaChore.OrderAPI.Migrations
 {
     [DbContext(typeof(OrderAPIDbContext))]
-    [Migration("20240724083259_init")]
+    [Migration("20240724125102_init")]
     partial class init
     {
         /// <inheritdoc />
