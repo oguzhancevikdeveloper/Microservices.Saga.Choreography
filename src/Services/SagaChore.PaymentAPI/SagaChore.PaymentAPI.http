@@ -1,0 +1,6 @@
+@SagaChore.PaymentAPI_HostAddress = http://localhost:5228
+
+GET {{SagaChore.PaymentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
