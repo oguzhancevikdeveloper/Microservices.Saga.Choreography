@@ -1,5 +1,4 @@
 using MassTransit;
-using MassTransit.RabbitMqTransport.Topology;
 using Microsoft.EntityFrameworkCore;
 using SagaChore.OrderAPI.Consumers;
 using SagaChore.OrderAPI.DTOs;
@@ -38,7 +37,6 @@ builder.Services.AddMassTransit(configurator =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

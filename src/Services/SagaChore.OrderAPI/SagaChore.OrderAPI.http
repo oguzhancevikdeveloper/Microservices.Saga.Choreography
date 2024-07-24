@@ -1,4 +1,4 @@
-@SagaChore.OrderAPI_HostAddress = http://localhost:5297
+@SagaChore.OrderAPI_HostAddress = http://localhost:5191
 
 GET {{SagaChore.OrderAPI_HostAddress}}/weatherforecast/
 Accept: application/json
